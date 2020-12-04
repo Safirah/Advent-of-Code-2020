@@ -26,4 +26,4 @@ for line in lines:
 	if (bool(password_pos_1 == letter) is not bool(password_pos_2 == letter)):
 		valid_passwords_count = valid_passwords_count + 1
 
-print ("Valid passwords:", valid_passwords_count)
+print (f"Valid passwords: {valid_passwords_count}")

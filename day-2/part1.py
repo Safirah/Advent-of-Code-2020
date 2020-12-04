@@ -22,4 +22,4 @@ for line in lines:
 	if (letter_count >= min_value and letter_count <= max_value):
 		valid_passwords_count = valid_passwords_count + 1
 
-print ("Valid passwords:", valid_passwords_count)
+print (f"Valid passwords: {valid_passwords_count}")

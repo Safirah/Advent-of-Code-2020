@@ -13,7 +13,5 @@ for combination in list_of_combinations:
 		combination_value_1 = combination[0]
 		combination_value_2 = combination[1]
 		combination_value_3 = combination[2]
-		print ("Value 1:", combination_value_1, "\nValue 2:", combination_value_2, "\nValue 3:", combination_value_3)
-		print("Values multiplied:", combination_value_1 * combination_value_2 * combination_value_3)
-
-#Note: This code could be improved if I found a way to not duplicate the list, I'm using the variable list_of_values_without_current_value, because if there was a singular "1010" in the file, then it would count as a pair.
+		print (f"Value 1: {combination_value_1} \nValue 2: {combination_value_2} \nValue 3: {combination_value_3}")
+		print (f"Values multiplied: {combination_value_1 * combination_value_2 * combination_value_3}")
